@@ -1,0 +1,284 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+#main
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    font-family: gilroy;
+}
+#NIKE 
+{
+    position: absolute;
+    width:75%;
+    height: 100%;
+    top: 27%;
+    left: 7%;
+    z-index: 10; 
+}
+#NIKE img
+{
+
+    width: 100%;
+    height: 50%;
+   
+}
+#nav
+{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 10vw;
+    color: aliceblue;
+    z-index: 10;
+}
+#bag1
+{
+    width:5vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#line
+{
+    width: 30vw;
+    height: .2vh;
+    background-color: aliceblue;
+}
+#naam
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    letter-spacing: .5vw;
+}
+#shop
+{
+    width:15vw;
+    height: 9vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    color:black;
+}
+#left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20vh 0; 
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(#F2E9E5,#B48067);
+}
+#bar
+{
+    z-index: 100;
+}
+#photo
+{
+    width: 10vw;
+   
+}
+#rate
+{
+    margin: -15vh 0;
+  line-height: 5vh;
+  color: #fff;
+}
+#no1
+{
+    width: 15vw;
+    justify-content: space-between;
+    display: flex;
+}
+#right
+{
+    position: relative;
+    display: flex;
+    width: 75%;
+    height: 100%;
+   background: linear-gradient(#D2CAC5,#D2CAC5);
+}
+#text
+{
+    position: relative;
+    top: 50%;
+    width: 60%;
+    height: 50%;
+    z-index: 10;
+    color: rgb(233, 233, 233);
+}
+#text img{
+    position: absolute;
+    width: 42vw;
+    top: -55%;
+    left: -20%;
+    z-index: 50;
+    transform-origin: 50%,50%;
+    transform: rotate(-25deg);
+}
+#text1
+{
+    position: absolute;
+    font-size: 5vw;
+    letter-spacing: 2vw;
+    top: 10vh;
+    right: 0%;
+}
+#text1 h1{
+    font-weight: 500;
+}
+#text2
+{
+    position: absolute;
+    bottom: 7vh;
+    right: 10vw;
+
+}
+#price
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22vw;
+}
+button
+{
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    background-color: #273F5E;
+    color: #fff;
+}
+.gola
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5vw;
+    border: 3px solid rgb(6, 2, 53);
+    height: 5vh;
+    border-radius: 50%;
+    background-color:#273F5E;
+}
+.gola h1
+{
+    font-weight: 400;
+}
+#gola1
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5vh;
+    left: 8vw;
+    width: 3vw;
+    height: 6vh;
+    background-color: #B48067;
+    border-radius: 50%;
+    z-index: 100;
+}
+#two
+{
+    position: absolute;
+    bottom: 22vh;
+    left: -3vw;
+    z-index: 100;
+}
+#three
+{
+    position: absolute;
+    right: 18vw;
+    top: 7vh;
+    z-index: 100;
+}
+#more
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 40%;
+   height: 100%;
+   
+   padding: 23vh 0vw;
+   
+}
+.box
+{
+    width: 8vw;
+    height: 16vh;
+    background-color: #273F5E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+#color
+{
+  position: absolute;
+  text-align: center;
+  bottom: 6vh;
+  width: 13vw;
+}
+#colors
+{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+}
+#c1
+{
+    border: none;
+    background-color:palevioletred;
+}
+#c2
+{
+    border: none;
+    background-color:orangered;   
+}
+#c3
+{
+    border: none;
+    background-color: #8F675C;
+}
+#c4
+{
+    border: none;
+    background-color: white;
+}
+.box img{
+    position: relative;
+    left: -10vw;
+    width: 20vw;
+}
+#bc1
+{
+   background-color: silver;
+}
+#bc2
+{
+    background-color: #fff;
+}
